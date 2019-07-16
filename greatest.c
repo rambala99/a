@@ -1,21 +1,21 @@
 #include <stdio.h>
 int main()
 {
-int a,b,c;
-scanf("%d %d %d",&a,&b,&c);
-if(a>=b && b>=c && c>=a)
+int x,y,z;
+scanf("%d %d %d",&x,&y,&z);
+if(x>=y && y>=z )
 {
-	printf("%d",a);
+	printf("%d",x);
 }
 	
-if(b>=a && b>=c)
+else if(y>=x && y>=z)
 {
-	printf("%d",b);
+	printf("%d",y);
 }
 
-else
+else(z>=x && z>=y)
 {
-	printf("%d",c);
+	printf("%d",z);
 }
 
 return 0;
